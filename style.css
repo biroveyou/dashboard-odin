@@ -1,3 +1,9 @@
+:root {
+    --light-grey: #ececec;
+    --medium-grey: #dadada;
+    --dark-grey: #a7a7a7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +19,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 3fr 12fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -37,11 +43,38 @@ nav {
 
 .search-section {
     justify-self: flex-start;
+    display: flex;
+    gap: 8px;
+
+    background-color: var(--light-grey);
+    width: 300px;
+    height: 40px;
+    padding: 4px 16px;
+    border-radius: 48px;
+}
+
+#search-icon {
+    width: 30px;
+}
+
+#search-bar {
+    all: unset;
+    width: 280px;
 }
 
 .user-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+#notification-icon {
+    width: 30px;
+}
+
+#mini-user-icon {
+    width: 40px;
 }
 
 .lower-nav {
@@ -52,14 +85,31 @@ nav {
     align-items: center;
 }
 
+.welcome-section {
+    align-self: center;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#user-icon {
+    width: 56px;
+}
+
 .action-section {
     display: flex;
     justify-content: space-around;
 }
 
-.welcome-section {
-    display: flex;
-    align-self: center;
+.action-section > button {
+    all: unset;
+    cursor: pointer;
+    
+    padding: 8px 32px;
+    background-color: var(--light-grey);
+
+    border-radius: 16px;
 }
 
 aside {
