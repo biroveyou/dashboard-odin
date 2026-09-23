@@ -1,76 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div class="container">
-        <nav>
-            <div class="upper-nav">
-                <div class="search-section">
-                    <img id="search-icon">
-                    <input type="search" id="search-bar" name="search-bar">
-                </div>
-                <div class="user-section">
-                    <img id="notification-icon">
-                    <img id="mini-user-icon">
-                    <p class="medium-wording">Morgan Oakley</p>
-                </div>
+      <nav>
+        <div class="upper-nav">
+          <div class="search-section">
+            <img id="search-icon" />
+            <input type="search" id="search-bar" name="search-bar" />
+          </div>
+          <div class="user-section">
+            <img id="notification-icon" />
+            <img id="mini-user-icon" />
+            <p class="medium-wording">Morgan Oakley</p>
+          </div>
+        </div>
+        <div class="lower-nav">
+          <div class="welcome-section">
+            <img class="user-icon" />
+            <div>
+              <p class="small-wording">Hi there,</p>
+              <p class="large-wording">Morgan Oakley(@morgan)</p>
             </div>
-            <div class="lower-nav">
-                <div class="welcome-section">
-                    <img class="user-icon">
-                    <div>
-                        <p class="small-wording">Hi there,</p>
-                        <p class="large-wording">Morgan Oakley(@morgan)</p>
-                    </div>
-                </div>
-                <div class="action-section">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
+          </div>
+          <div class="action-section">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </nav>
+      <aside>
+        <h1>Dashboard</h1>
+        <p>Menu</p>
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Messages</li>
+          <li>History</li>
+          <li>Tasks</li>
+          <li>Communities</li>
+        </ul>
+        <p>General</p>
+        <ul>
+          <li>Settings</li>
+          <li>Support</li>
+          <li>Privacy</li>
+        </ul>
+      </aside>
+      <main>
+        <div class="projects">
+          <h2>Your Projects</h2>
+          <div class="card-canvas">
+            <div class="card">
+              <h3>Super Cool Project</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Numquam velit odit facilis et animi tempore nisi id assumenda
+                omnis obcaecati officiis quae rerum unde, sint perferendis aut?
+                Fugit, tenetur modi?
+              </p>
             </div>
-        </nav>
-        <aside>
-            <h1>Dashboard</h1>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
-            <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
-        </aside>
-        <main>
-            <div class="projects">
-                <h2>Your Projects</h2>
-                <div class="card-canva">
-
-                </div>
+            <div class="card">
+              <h3>Less Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                magni ullam sint odio ipsam, sed laudantium voluptate mollitia
+                cumque quibusdam beatae facilis corrupti sit fuga earum iusto?
+                Dolorum, recusandae ut.
+              </p>
             </div>
-            <div class="announcements">
-                <h2>Announcements</h2>
-                <div class="announcement-info">
-
-                </div>
+            <div class="card">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+                consectetur perspiciatis, dignissimos amet provident corrupti
+                quam. Doloremque illo minima repellat blanditiis perspiciatis
+                qui praesentium sequi, ipsa, in laudantium quia assumenda?
+              </p>
             </div>
-            <div class="trending">
-                <h2>Trending</h2>
-                <div class="trending-info">
-
-                </div>
+            <div class="card">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                aut, voluptas tempora modi commodi ab atque! Ex rerum sequi
+                quaerat quos. Omnis laborum impedit tempore praesentium
+                dignissimos asperiores, atque ut.
+              </p>
             </div>
-        </main>
+            <div class="card">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                mollitia suscipit recusandae ipsa velit doloremque alias itaque,
+                animi distinctio sit quidem temporibus vel facilis magni
+                veritatis beatae nihil aspernatur deleniti!
+              </p>
+            </div>
+            <div class="card">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                dolorem explicabo quas illum expedita sapiente sequi minus
+                obcaecati deleniti inventore excepturi, a alias voluptates
+                voluptatum ex harum porro iste nobis!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="announcements">
+          <h2>Announcements</h2>
+          <div class="announcement-info"></div>
+        </div>
+        <div class="trending">
+          <h2>Trending</h2>
+          <div class="trending-info"></div>
+        </div>
+      </main>
     </div>
-</body>
+  </body>
 </html>
