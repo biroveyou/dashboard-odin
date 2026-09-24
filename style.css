@@ -239,7 +239,7 @@ main {
     grid-row: 2;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 5fr 2fr;
     grid-template-rows: 1fr 1fr;
     gap: 32px;
 
@@ -248,7 +248,7 @@ main {
     border-radius: var(--radius);
 }
 
-.projects > h2 {
+h2 {
     margin-bottom: 12px;
 }
 
@@ -287,4 +287,23 @@ main {
 
 .title > h3 {
     align-self: center;
+}
+
+.announcement-canvas {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    background-color: var(--white);
+    padding: 32px;
+    border-radius: var(--radius);
+}
+
+.announcement-info {
+    padding: 4px;
+}
+
+.border {
+    border-bottom: 1px solid var(--medium-grey);
+    padding-bottom: 16px;
 }
